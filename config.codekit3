@@ -123,6 +123,14 @@
 		"oAP": "/deploy/html/projects.html",
 		"oF": 0
 		},
+	"/deploy/html/we-have-demons.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/html/we-have-demons.html",
+		"oF": 0
+		},
 	"/deploy/img/artists/daniel-duke-panosian.jpg": {
 		"ft": 16384,
 		"iS": 386326,
@@ -732,14 +740,6 @@
 		"oAP": "/deploy/html/clear.html",
 		"oF": 2
 		},
-	"/dev/html/demons.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/html/demons.html",
-		"oF": 2
-		},
 	"/dev/html/duck-and-cover.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -786,6 +786,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/html/projects.html",
+		"oF": 2
+		},
+	"/dev/html/we-have-demons.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/html/demons.html",
 		"oF": 2
 		},
 	"/dev/index.kit": {
