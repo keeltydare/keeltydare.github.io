@@ -131,6 +131,17 @@
 		"oAP": "/deploy/html/we-have-demons.html",
 		"oF": 0
 		},
+	"/deploy/img/artists/ariela-kristantina.jpg": {
+		"ft": 16384,
+		"iS": 3950442,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/artists/ariela-kristantina.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/artists/daniel-duke-panosian.jpg": {
 		"ft": 16384,
 		"iS": 386326,
@@ -217,6 +228,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/bjp-logo.png": {
+		"ft": 32768,
+		"iS": 110312,
+		"oA": 0,
+		"oAP": "/deploy/img/bjp-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/deploy/img/comic-headers/barnstormers-logo.png": {
