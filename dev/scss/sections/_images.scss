@@ -1,0 +1,42 @@
+/* =============
+    Images
+============= */
+.project-cover {
+    background-color: $darkgrey;
+    padding: 10px;
+    width: 235px;
+
+    >img {
+        width: 235px;
+    }
+}
+
+.cover {
+    background-color: $darkgrey;
+    padding: 10px;
+    width: 320px;
+
+    >img {
+        width: 320px;
+    }
+}
+
+.artist-image {
+    background-color: $darkgrey;
+    padding: 10px;
+    width: 320px;
+
+    >img {
+        width: 320px;
+    }
+}
+
+.media-icon {
+    background-color: $darkgrey;
+    padding: 10px;
+    width: 200px;
+
+    >img {
+        width: 200px;
+    }
+}

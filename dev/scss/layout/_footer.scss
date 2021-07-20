@@ -1,3 +1,45 @@
 /* =============
     Footer
 ============= */
+
+#footer{
+    background-color: $black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+    >div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        
+        >#footer-logo{
+            >a{
+                >img{
+                    height: 50px;
+                    margin:10px;
+                }
+            }
+        }
+
+        >#social-icons{
+            text-align: center;
+            >a{
+                >img{
+                    height: 50px;
+                    margin:10px;
+                }
+            }
+        }
+
+        >#footer-links{
+            >a{
+                >h6{
+                    margin: 10px;
+                    text-align: right;
+                }
+            }
+        }
+
+    }
+
+}

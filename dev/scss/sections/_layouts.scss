@@ -1,0 +1,32 @@
+/* =============
+    Layouts
+============= */
+
+#project-icons {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    >a {
+        margin: 10px;
+        text-align: center;
+
+        >img {
+            width: 235px;
+
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        display: block;
+        text-align: center;
+        >a{
+            >img{
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+

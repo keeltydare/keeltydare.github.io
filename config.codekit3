@@ -67,14 +67,6 @@
 		"oAP": "/deploy/html/clear.html",
 		"oF": 0
 		},
-	"/deploy/html/demons.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/html/demons.html",
-		"oF": 0
-		},
 	"/deploy/html/duck-and-cover.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -505,6 +497,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/footer-logo.png": {
+		"ft": 32768,
+		"iS": 11859,
+		"oA": 0,
+		"oAP": "/deploy/img/footer-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/media-press/articles/aipt.jpg": {
 		"ft": 16384,
 		"iS": 7610,
@@ -701,6 +704,149 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/project-icons/barnstormers-icon.png": {
+		"ft": 32768,
+		"iS": 2259148,
+		"oA": 0,
+		"oAP": "/deploy/img/project-icons/barnstormers-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/project-icons/book-of-evil-icon.png": {
+		"ft": 32768,
+		"iS": 655567,
+		"oA": 0,
+		"oAP": "/deploy/img/project-icons/book-of-evil-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/project-icons/canary-icon.png": {
+		"ft": 32768,
+		"iS": 237092,
+		"oA": 0,
+		"oAP": "/deploy/img/project-icons/canary-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/project-icons/chain-icon.png": {
+		"ft": 32768,
+		"iS": 381092,
+		"oA": 0,
+		"oAP": "/deploy/img/project-icons/chain-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/project-icons/clear-icon.png": {
+		"ft": 32768,
+		"iS": 2033558,
+		"oA": 0,
+		"oAP": "/deploy/img/project-icons/clear-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/project-icons/duck-and-cover-icon.png": {
+		"ft": 32768,
+		"iS": 1432455,
+		"oA": 0,
+		"oAP": "/deploy/img/project-icons/duck-and-cover-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/project-icons/dudley-icon.png": {
+		"ft": 32768,
+		"iS": 1194139,
+		"oA": 0,
+		"oAP": "/deploy/img/project-icons/dudley-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/project-icons/night-of-the-ghoul-icon.png": {
+		"ft": 32768,
+		"iS": 1242182,
+		"oA": 0,
+		"oAP": "/deploy/img/project-icons/night-of-the-ghoul-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/project-icons/nocterra-icon.png": {
+		"ft": 32768,
+		"iS": 823283,
+		"oA": 0,
+		"oAP": "/deploy/img/project-icons/nocterra-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/project-icons/we-have-demons-icon.png": {
+		"ft": 32768,
+		"iS": 1517742,
+		"oA": 0,
+		"oAP": "/deploy/img/project-icons/we-have-demons-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/social/facebook.png": {
+		"ft": 32768,
+		"iS": 2033,
+		"oA": 0,
+		"oAP": "/deploy/img/social/facebook.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/social/instagram.png": {
+		"ft": 32768,
+		"iS": 9449,
+		"oA": 0,
+		"oAP": "/deploy/img/social/instagram.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/social/twitter.png": {
+		"ft": 32768,
+		"iS": 7349,
+		"oA": 0,
+		"oAP": "/deploy/img/social/twitter.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/deploy/index.html": {
@@ -963,6 +1109,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/layout/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_images.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_images.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_layouts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_layouts.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
