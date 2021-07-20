@@ -327,7 +327,8 @@ h1 {
   font-size: 60pt;
   text-align: center;
   font-weight: 600;
-  color: #000; }
+  color: #000;
+  margin-bottom: 80px; }
 
 h2 {
   font-size: 36pt;
@@ -338,7 +339,8 @@ h2 {
   padding-right: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-right: 10%; }
+  margin-right: 10%;
+  margin-bottom: 60px; }
 
 h3 {
   font-size: 24pt;
@@ -452,30 +454,40 @@ textarea {
 .project-cover {
   background-color: #ababab;
   padding: 10px;
-  width: 235px; }
+  width: fit-content;
+  height: fit-content; }
   .project-cover > img {
     width: 235px; }
 
 .cover {
   background-color: #ababab;
   padding: 10px;
-  width: 320px; }
+  width: fit-content;
+  height: fit-content; }
   .cover > img {
     width: 320px; }
 
 .artist-image {
   background-color: #ababab;
   padding: 10px;
-  width: 320px; }
+  width: fit-content;
+  height: fit-content; }
   .artist-image > img {
     width: 320px; }
 
 .media-icon {
   background-color: #ababab;
   padding: 10px;
-  width: 200px; }
+  width: fit-content;
+  height: fit-content; }
   .media-icon > img {
     width: 200px; }
+
+.project-logo {
+  margin-top: 60px;
+  text-align: center; }
+  .project-logo > img {
+    width: 80%; }
 
 /* =============
     Layouts
@@ -497,3 +509,52 @@ textarea {
       text-align: center; }
       #project-icons > a > img {
         margin-bottom: 20px; } }
+#project-page-layout > div > .project {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: -90px;
+  display: grid;
+  grid-template-columns: 1fr 2fr; }
+  #project-page-layout > div > .project > aside {
+    text-align: center; }
+  #project-page-layout > div > .project > div {
+    margin-left: 20px;
+    margin-top: 50px; }
+    #project-page-layout > div > .project > div > h4 {
+      margin-top: 40px;
+      margin-left: 20px;
+      width: fit-content; }
+    #project-page-layout > div > .project > div > div {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-top: 60px; }
+      #project-page-layout > div > .project > div > div > a {
+        margin: 20px; }
+
+#podcast-layout {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; }
+  #podcast-layout > div {
+    margin: 10px;
+    margin-bottom: 60px; }
+    #podcast-layout > div > div {
+      margin-bottom: 10px; }
+    #podcast-layout > div > a {
+      text-align: center;
+      margin-bottom: 10px; }
+
+#article-layout {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; }
+  #article-layout > div {
+    margin: 10px;
+    margin-bottom: 60px; }
+    #article-layout > div > div {
+      margin-bottom: 10px; }
+    #article-layout > div > a {
+      text-align: center;
+      margin-bottom: 10px; }
