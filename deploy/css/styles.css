@@ -328,7 +328,8 @@ h1 {
   text-align: center;
   font-weight: 600;
   color: #000;
-  margin-bottom: 80px; }
+  margin-bottom: 80px;
+  margin-top: 100px; }
 
 h2 {
   font-size: 36pt;
@@ -408,7 +409,10 @@ textarea {
     Header
 ============= */
 #header {
-  background-color: #000; }
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  width: 100%; }
   #header > div {
     display: grid;
     grid-template-columns: 1fr 2fr; }
@@ -488,6 +492,12 @@ textarea {
   text-align: center; }
   .project-logo > img {
     width: 80%; }
+
+.scott-image > img {
+  width: 200px; }
+
+#video {
+  width: 100%; }
 
 /* =============
     Layouts
