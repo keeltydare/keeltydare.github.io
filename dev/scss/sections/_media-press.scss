@@ -1,0 +1,181 @@
+/* =============
+Media Press
+============= */
+#podcast-layout {
+    margin: 30px 5%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    >div {
+        margin: 5px;
+        margin-bottom: 60px;
+        width: 220px;
+
+        >div {
+            margin-bottom: 10px;
+        }
+
+        >a {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        >h4 {
+            text-align: left;
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+        margin: 30px auto;
+
+        >div {
+            width: 200px;
+
+            >div {
+                text-align: center;
+
+                >img {
+                    width: 180px;
+                }
+
+
+            }
+
+            >a {
+                text-align: center;
+                margin-bottom: 10px;
+
+                >h3 {
+                    font-size: 18pt;
+                }
+            }
+
+            >h4 {
+                text-align: left;
+                font-size: 16pt;
+            }
+        }
+    }
+
+    @media screen and (max-width: 850px) {
+        >div {
+            width: 180px;
+
+            >div {
+                >img {
+                    width: 160px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        grid-template-columns: 1fr 1fr 1fr;
+        >div {
+            margin-bottom: 40px;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        margin: 30px 15%;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (max-width: 400px) {
+        margin: 30px 10%;
+        grid-template-columns: 1fr;
+        >div {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+#article-layout {
+    margin: 30px 5%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    >div {
+        margin: 5px;
+        margin-bottom: 60px;
+        width: 220px;
+
+        >div {
+            margin-bottom: 10px;
+        }
+
+        >a {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        >h4 {
+            text-align: left;
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+        margin: 30px auto;
+
+        >div {
+            width: 200px;
+
+            >div {
+                text-align: center;
+
+                >img {
+                    width: 180px;
+                }
+
+
+            }
+
+            >a {
+                text-align: center;
+                margin-bottom: 10px;
+
+                >h3 {
+                    font-size: 18pt;
+                }
+            }
+
+            >h4 {
+                text-align: left;
+                font-size: 16pt;
+            }
+        }
+    }
+
+    @media screen and (max-width: 850px) {
+        >div {
+            width: 180px;
+
+            >div {
+                >img {
+                    width: 160px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        grid-template-columns: 1fr 1fr 1fr;
+        >div {
+            margin-bottom: 40px;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (max-width: 400px) {
+        margin: 30px 15%;
+        grid-template-columns: 1fr;
+        >div {
+            margin-bottom: 30px;
+        }
+    }
+}

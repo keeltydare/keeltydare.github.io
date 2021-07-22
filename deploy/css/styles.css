@@ -341,15 +341,22 @@ h2 {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-right: 10%;
-  margin-bottom: 60px; }
-
+  margin-bottom: 60px;
+  background-repeat: no-repeat; }
+  h2 > br {
+    display: none; }
+  @media screen and (max-width: 500px) {
+    h2 {
+      font-size: 32pt; }
+      h2 > br {
+        display: block; } }
 h3 {
-  font-size: 24pt;
+  font-size: 21pt;
   font-weight: 600;
   text-align: center;
   color: #fff;
   background-color: #000;
-  padding: 10px; }
+  padding: 10px 20px; }
 
 h4 {
   font-size: 18pt;
@@ -367,7 +374,11 @@ h5 {
   h5 > span {
     font-size: 18pt;
     font-weight: 700; }
-
+  @media screen and (max-width: 750px) {
+    h5 {
+      font-size: 14pt; }
+      h5 > span {
+        font-size: 16pt; } }
 h6 {
   font-size: 16pt;
   font-weight: 400;
@@ -416,19 +427,46 @@ textarea {
   #header > div {
     display: grid;
     grid-template-columns: 1fr 2fr; }
-    #header > div > a > img {
-      height: 50px;
-      margin: 10px; }
+    #header > div > #header-logo {
+      height: 70px; }
+      #header > div > #header-logo > a > img {
+        height: 50px;
+        margin: 10px; }
     #header > div > div {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: auto auto auto auto auto;
       margin-left: 10%; }
       #header > div > div > a {
         height: 50px;
         text-align: center; }
         #header > div > div > a > h6 {
           margin: 20px 5px; }
-
+  @media screen and (max-width: 620px) {
+    #header > div > div {
+      text-align: center; }
+      #header > div > div > a {
+        height: 70px;
+        text-align: center; }
+        #header > div > div > a > h6 {
+          margin: 5px; } }
+  @media screen and (max-width: 560px) {
+    #header > div {
+      display: block;
+      grid-template-columns: 1fr 2fr; }
+      #header > div > a > img {
+        height: 50px;
+        margin: 10px; }
+      #header > div > div {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        margin-left: 5%;
+        margin-right: 5%; }
+        #header > div > div > a {
+          height: fit-content;
+          text-align: center; }
+          #header > div > div > a > h6 {
+            margin: 10px 5px;
+            font-size: 14pt; } }
 /* =============
     Footer
 ============= */
@@ -439,7 +477,7 @@ textarea {
   margin-bottom: 20px; }
   #footer > div {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; }
+    grid-template-columns: 1fr 3fr 1fr; }
     #footer > div > #footer-logo > a > img {
       height: 50px;
       margin: 10px; }
@@ -451,47 +489,60 @@ textarea {
     #footer > div > #footer-links > a > h6 {
       margin: 10px;
       text-align: right; }
-
+  @media screen and (max-width: 670px) {
+    #footer > div {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr; }
+      #footer > div > #footer-logo > a > img {
+        height: 40px;
+        margin: 10px; }
+      #footer > div > #social-icons > a {
+        margin-top: 10px; }
+        #footer > div > #social-icons > a > img {
+          height: 40px;
+          margin: 10px; }
+      #footer > div > #footer-links > a > h6 {
+        margin: 10px;
+        text-align: center; } }
+  @media screen and (max-width: 600px) {
+    #footer > div {
+      display: block; }
+      #footer > div > #footer-logo {
+        text-align: center; }
+      #footer > div > #social-icons > a {
+        margin-top: 10px; }
+        #footer > div > #social-icons > a > img {
+          height: 40px;
+          margin: 10px; }
+      #footer > div > #footer-links {
+        margin-bottom: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr; }
+        #footer > div > #footer-links > a > h6 {
+          margin: 10px;
+          text-align: center; } }
 /* =============
     Images
 ============= */
-.project-cover {
+.project-cover > img {
   background-color: #ababab;
   padding: 10px;
-  width: fit-content;
-  height: fit-content; }
-  .project-cover > img {
-    width: 235px; }
+  width: 235px; }
 
-.cover {
+.cover > img {
   background-color: #ababab;
   padding: 10px;
-  width: fit-content;
-  height: fit-content; }
-  .cover > img {
-    width: 320px; }
+  width: 320px; }
 
-.artist-image {
+.artist-image > img {
   background-color: #ababab;
   padding: 10px;
-  width: fit-content;
-  height: fit-content; }
-  .artist-image > img {
-    width: 320px; }
+  width: 320px; }
 
-.media-icon {
+.media-icon > img {
   background-color: #ababab;
   padding: 10px;
-  width: fit-content;
-  height: fit-content; }
-  .media-icon > img {
-    width: 200px; }
-
-.project-logo {
-  margin-top: 60px;
-  text-align: center; }
-  .project-logo > img {
-    width: 80%; }
+  width: 200px; }
 
 .scott-image > img {
   width: 200px; }
@@ -500,25 +551,195 @@ textarea {
   width: 100%; }
 
 /* =============
-    Layouts
+Media Press
 ============= */
-#project-icons {
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 80px;
+#podcast-layout {
+  margin: 30px 5%;
+  text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr; }
-  #project-icons > a {
-    margin: 10px;
-    text-align: center; }
-    #project-icons > a > img {
-      width: 235px; }
+  #podcast-layout > div {
+    margin: 5px;
+    margin-bottom: 60px;
+    width: 220px; }
+    #podcast-layout > div > div {
+      margin-bottom: 10px; }
+    #podcast-layout > div > a {
+      text-align: center;
+      margin-bottom: 10px; }
+    #podcast-layout > div > h4 {
+      text-align: left; }
+  @media screen and (max-width: 1000px) {
+    #podcast-layout {
+      margin: 30px auto; }
+      #podcast-layout > div {
+        width: 200px; }
+        #podcast-layout > div > div {
+          text-align: center; }
+          #podcast-layout > div > div > img {
+            width: 180px; }
+        #podcast-layout > div > a {
+          text-align: center;
+          margin-bottom: 10px; }
+          #podcast-layout > div > a > h3 {
+            font-size: 18pt; }
+        #podcast-layout > div > h4 {
+          text-align: left;
+          font-size: 16pt; } }
+  @media screen and (max-width: 850px) {
+    #podcast-layout > div {
+      width: 180px; }
+      #podcast-layout > div > div > img {
+        width: 160px; } }
+  @media screen and (max-width: 800px) {
+    #podcast-layout {
+      grid-template-columns: 1fr 1fr 1fr; }
+      #podcast-layout > div {
+        margin-bottom: 40px; } }
   @media screen and (max-width: 600px) {
-    #project-icons {
-      display: block;
-      text-align: center; }
-      #project-icons > a > img {
-        margin-bottom: 20px; } }
+    #podcast-layout {
+      margin: 30px 15%;
+      grid-template-columns: 1fr 1fr; } }
+  @media screen and (max-width: 400px) {
+    #podcast-layout {
+      margin: 30px 10%;
+      grid-template-columns: 1fr; }
+      #podcast-layout > div {
+        margin-bottom: 30px; } }
+#article-layout {
+  margin: 30px 5%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; }
+  #article-layout > div {
+    margin: 5px;
+    margin-bottom: 60px;
+    width: 220px; }
+    #article-layout > div > div {
+      margin-bottom: 10px; }
+    #article-layout > div > a {
+      text-align: center;
+      margin-bottom: 10px; }
+    #article-layout > div > h4 {
+      text-align: left; }
+  @media screen and (max-width: 1000px) {
+    #article-layout {
+      margin: 30px auto; }
+      #article-layout > div {
+        width: 200px; }
+        #article-layout > div > div {
+          text-align: center; }
+          #article-layout > div > div > img {
+            width: 180px; }
+        #article-layout > div > a {
+          text-align: center;
+          margin-bottom: 10px; }
+          #article-layout > div > a > h3 {
+            font-size: 18pt; }
+        #article-layout > div > h4 {
+          text-align: left;
+          font-size: 16pt; } }
+  @media screen and (max-width: 850px) {
+    #article-layout > div {
+      width: 180px; }
+      #article-layout > div > div > img {
+        width: 160px; } }
+  @media screen and (max-width: 800px) {
+    #article-layout {
+      grid-template-columns: 1fr 1fr 1fr; }
+      #article-layout > div {
+        margin-bottom: 40px; } }
+  @media screen and (max-width: 600px) {
+    #article-layout {
+      grid-template-columns: 1fr 1fr; } }
+  @media screen and (max-width: 400px) {
+    #article-layout {
+      margin: 30px 15%;
+      grid-template-columns: 1fr; }
+      #article-layout > div {
+        margin-bottom: 30px; } }
+/* =============
+   Main Page
+============= */
+#main-page > #video {
+  margin-top: 70px; }
+
+#main-page > #description {
+  margin: 60px 10%;
+  display: grid;
+  grid-template-columns: 1fr 2fr; }
+  #main-page > #description > aside {
+    text-align: right; }
+  #main-page > #description > h5 {
+    height: fit-content;
+    margin: auto;
+    margin-left: 50px; }
+
+#main-page > #buttons {
+  margin-bottom: 60px;
+  display: grid;
+  text-align: right;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: ". button1" ". button2" ". button3"; }
+  #main-page > #buttons > #button1 {
+    grid-area: button1; }
+  #main-page > #buttons > #button2 {
+    grid-area: button2; }
+  #main-page > #buttons > #button3 {
+    grid-area: button3; }
+  #main-page > #buttons > a {
+    margin-top: -30px;
+    margin-right: auto; }
+    #main-page > #buttons > a > h3 {
+      width: fit-content; }
+
+#main-page > #project-icons {
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  margin-bottom: 80px;
+  display: block; }
+  #main-page > #project-icons > a {
+    text-align: center; }
+    #main-page > #project-icons > a > img {
+      width: 230px;
+      margin: 10px; }
+    #main-page > #project-icons > a > .hover {
+      display: none; }
+  #main-page > #project-icons > a:hover > .regular,
+  #main-page > #project-icons a:active > .regular {
+    display: none; }
+  #main-page > #project-icons > a:hover > .hover,
+  #main-page > #project-icons a:active > .hover {
+    display: inline; }
+
+@media screen and (max-width: 600px) {
+  #main-page > #description {
+    margin: 60px 10%;
+    display: block; }
+    #main-page > #description > aside {
+      text-align: center;
+      margin-bottom: 30px; }
+    #main-page > #description > h5 {
+      margin: auto; }
+  #main-page > #buttons {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: ". button1 ." ". button2 ." ". button3 ."; }
+    #main-page > #buttons > #button1 {
+      grid-area: button1; }
+    #main-page > #buttons > #button2 {
+      grid-area: button2; }
+    #main-page > #buttons > #button3 {
+      grid-area: button3; }
+    #main-page > #buttons > a {
+      margin-right: auto;
+      margin-left: auto; } }
+
+/* =============
+Project Page
+============= */
 #project-page-layout > div > .project {
   margin-left: 10%;
   margin-right: 10%;
@@ -541,30 +762,153 @@ textarea {
       #project-page-layout > div > .project > div > div > a {
         margin: 20px; }
 
-#podcast-layout {
-  margin-left: 10%;
-  margin-right: 10%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; }
-  #podcast-layout > div {
-    margin: 10px;
-    margin-bottom: 60px; }
-    #podcast-layout > div > div {
-      margin-bottom: 10px; }
-    #podcast-layout > div > a {
-      text-align: center;
-      margin-bottom: 10px; }
+@media screen and (max-width: 800px) {
+  #project-page-layout > div > h2 {
+    margin-right: 5%;
+    font-size: 32px; }
+  #project-page-layout > div > .project {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -70px;
+    display: grid;
+    grid-template-columns: 1fr 2fr; }
+    #project-page-layout > div > .project > aside {
+      text-align: center; }
+    #project-page-layout > div > .project > div {
+      margin-left: 20px;
+      margin-top: 50px; }
+      #project-page-layout > div > .project > div > h4 {
+        margin-top: 40px;
+        margin-left: 20px;
+        width: fit-content; }
+      #project-page-layout > div > .project > div > div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 60px; }
+        #project-page-layout > div > .project > div > div > a {
+          margin: 20px; } }
 
-#article-layout {
+@media screen and (max-width: 600px) {
+  #project-page-layout {
+    margin-top: 80px; }
+    #project-page-layout > div > h2 {
+      margin-right: 5%;
+      font-size: 32px; }
+      #project-page-layout > div > h2 > br {
+        display: none; }
+    #project-page-layout > div > .project {
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: -50px;
+      display: block;
+      text-align: center; }
+      #project-page-layout > div > .project > aside {
+        text-align: center; }
+        #project-page-layout > div > .project > aside > img {
+          width: 200px; }
+      #project-page-layout > div > .project > div {
+        margin-left: 0px;
+        margin-top: 30px; }
+        #project-page-layout > div > .project > div > h4 {
+          margin-top: 30px;
+          margin-left: 0px;
+          width: fit-content;
+          text-align: center; }
+        #project-page-layout > div > .project > div > div {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          margin-top: 60px; }
+          #project-page-layout > div > .project > div > div > a {
+            margin: 10px; } }
+
+/* =============
+    Projects
+============= */
+.project-logo {
+  margin-top: 90px;
+  margin-bottom: 30px;
+  text-align: center; }
+  .project-logo > img {
+    width: 80%; }
+  @media screen and (max-width: 570px) {
+    .project-logo {
+      margin-top: 120px; } }
+  @media screen and (max-width: 350px) {
+    .project-logo {
+      margin-top: 160px; } }
+#clear > .project-logo > img,
+#we-have-demons > .project-logo > img {
+  width: 70%; }
+
+#duck-and-cover > .project-logo > img,
+#dudley-datson > .project-logo > img {
+  width: 60%; }
+
+#nocterra {
+  margin-top: -80px; }
+  #nocterra > div > img {
+    width: 100%; }
+  #nocterra > .project-description {
+    margin-top: -60px; }
+  @media screen and (max-width: 570px) {
+    #nocterra {
+      margin-top: -50px; } }
+  @media screen and (max-width: 350px) {
+    #nocterra {
+      margin-top: 0px; } }
+.project-description {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 60px 10%; }
+  .project-description > div {
+    margin: 20px; }
+    .project-description > div > a {
+      text-align: center;
+      margin: auto; }
+      .project-description > div > a > h3 {
+        width: 300px; }
+  .project-description > h5 {
+    height: fit-content; }
+  @media screen and (max-width: 850px) {
+    .project-description {
+      margin: 60px 5%; }
+      .project-description > div {
+        text-align: center; }
+        .project-description > div > a > h3 {
+          width: 280px; }
+        .project-description > div > aside > img {
+          width: 300px; } }
+  @media screen and (max-width: 750px) {
+    .project-description {
+      display: block;
+      margin: 60px 5%;
+      text-align: center; }
+      .project-description > div > a {
+        width: 280px; }
+        .project-description > div > a > h3 {
+          margin: 20px auto;
+          width: 280px; }
+      .project-description > div > aside > img {
+        width: 300px; } }
+.artist-description > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin-left: 10%;
   margin-right: 10%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; }
-  #article-layout > div {
-    margin: 10px;
-    margin-bottom: 60px; }
-    #article-layout > div > div {
-      margin-bottom: 10px; }
-    #article-layout > div > a {
-      text-align: center;
-      margin-bottom: 10px; }
+  margin-bottom: 60px; }
+  .artist-description > div > aside {
+    margin: 20px; }
+  .artist-description > div > h5 {
+    height: fit-content;
+    margin: auto 10px; }
+  @media screen and (max-width: 800px) {
+    .artist-description > div {
+      display: block;
+      text-align: center; }
+      .artist-description > div > aside > img {
+        width: 290px; }
+      .artist-description > div > h5 {
+        text-align: left; } }
+  @media screen and (max-width: 600px) {
+    .artist-description > div > aside > img {
+      width: 270px; } }

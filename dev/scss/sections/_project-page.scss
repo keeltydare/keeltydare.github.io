@@ -1,0 +1,134 @@
+/* =============
+Project Page
+============= */
+
+#project-page-layout {
+    >div {
+        >.project {
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: -90px;
+
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+
+            >aside {
+                text-align: center;
+            }
+
+            >div {
+                margin-left: 20px;
+                margin-top: 50px;
+
+                >h4 {
+                    margin-top: 40px;
+                    margin-left: 20px;
+                    width: fit-content;
+                }
+
+                >div {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    margin-top: 60px;
+
+                    >a {
+                        margin: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 800px){
+        >div {
+            >h2{
+                margin-right: 5%;
+                font-size: 32px;
+            }
+
+            >.project {
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-top: -70px;
+    
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+    
+                >aside {
+                    text-align: center;
+                }
+    
+                >div {
+                    margin-left: 20px;
+                    margin-top: 50px;
+    
+                    >h4 {
+                        margin-top: 40px;
+                        margin-left: 20px;
+                        width: fit-content;
+                    }
+    
+                    >div {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        margin-top: 60px;
+    
+                        >a {
+                            margin: 20px;
+                        }
+                    }
+                }
+            }
+        }  
+    }
+    @media screen and (max-width: 600px){
+        margin-top: 80px;
+        >div {
+            >h2{
+                margin-right: 5%;
+                font-size: 32px;
+                >br{
+                    display: none;
+                }
+            }
+
+            >.project {
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-top: -50px;
+    
+                display: block;
+                text-align: center;
+    
+                >aside {
+                    text-align: center;
+                    >img {
+                        width: 200px;
+                    }
+                }
+    
+                >div {
+                    margin-left: 0px;
+                    margin-top: 30px;
+    
+                    >h4 {
+                        margin-top: 30px;
+                        margin-left: 0px;
+                        width: fit-content;
+                        text-align: center;
+                    }
+    
+                    >div {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        margin-top: 60px;
+    
+                        >a {
+                            margin: 10px;
+                        }
+                    }
+                }
+            }
+        }  
+    }
+}

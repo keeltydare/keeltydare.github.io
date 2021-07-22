@@ -2,57 +2,40 @@
     Images
 ============= */
 .project-cover {
-    background-color: $darkgrey;
-    padding: 10px;
-    width: fit-content;
-    height: fit-content;
-
     >img {
+        background-color: $darkgrey;
+        padding: 10px;
         width: 235px;
     }
 }
 
 .cover {
-    background-color: $darkgrey;
-    padding: 10px;
-    width: fit-content;
-    height: fit-content;
-
     >img {
+        background-color: $darkgrey;
+        padding: 10px;
         width: 320px;
     }
 }
 
 .artist-image {
-    background-color: $darkgrey;
-    padding: 10px;
-    width: fit-content;
-    height: fit-content;
 
     >img {
+        background-color: $darkgrey;
+        padding: 10px;
         width: 320px;
-    }
+    } 
+
 }
 
 .media-icon {
-    background-color: $darkgrey;
-    padding: 10px;
-    width: fit-content;
-    height: fit-content;
 
     >img {
-        width: 200px;
+    background-color: $darkgrey;
+    padding: 10px;
+    width: 200px;
     }
 }
 
-.project-logo{
-    margin-top: 60px;
-    text-align: center;
-    >img{
-        width: 80%;
-    }
-    
-}
 
 .scott-image{
     >img{

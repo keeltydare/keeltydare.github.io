@@ -1,0 +1,185 @@
+/* =============
+    Projects
+============= */
+
+.project-logo {
+    margin-top: 90px;
+    margin-bottom: 30px;
+    text-align: center;
+
+    >img {
+        width: 80%;
+    }
+
+    @media screen and (max-width: 570px) {
+        margin-top: 120px;
+    }
+
+    @media screen and (max-width: 350px) {
+        margin-top: 160px;
+    }
+}
+
+#clear,
+#we-have-demons {
+    >.project-logo {
+        >img {
+            width: 70%;
+        }
+    }
+}
+
+#duck-and-cover,
+#dudley-datson {
+    >.project-logo {
+        >img {
+            width: 60%;
+        }
+    }
+}
+
+#nocterra {
+    margin-top: -80px;
+
+    >div {
+        >img {
+            width: 100%;
+        }
+    }
+
+    >.project-description {
+        margin-top: -60px;
+
+    }
+
+    @media screen and (max-width: 570px) {
+        margin-top: -50px;
+    }
+
+    @media screen and (max-width: 350px) {
+        margin-top: 0px;
+    }
+
+
+}
+
+.project-description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 60px 10%;
+
+    >div {
+        margin: 20px;
+
+        >a {
+            text-align: center;
+            margin: auto;
+
+            >h3 {
+                width: 300px;
+            }
+
+
+        }
+    }
+
+    >h5 {
+        height: fit-content;
+    }
+
+    @media screen and (max-width: 850px) {
+        margin: 60px 5%;
+
+        >div {
+            text-align: center;
+
+            >a {
+                >h3 {
+                    width: 280px;
+                }
+            }
+
+            >aside {
+                >img {
+                    width: 300px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 750px) {
+        display: block;
+        margin: 60px 5%;
+        text-align: center;
+
+        >div {
+            >a {
+                width: 280px;
+
+                >h3 {
+                    margin: 20px auto;
+                    width: 280px;
+
+                }
+
+            }
+
+            >aside {
+                >img {
+                    width: 300px;
+                }
+            }
+        }
+
+    }
+
+
+
+
+}
+
+.artist-description {
+    >div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 60px;
+
+        >aside {
+            margin: 20px;
+        }
+
+
+        >h5 {
+            height: fit-content;
+            margin: auto 10px;
+        }
+
+        @media screen and (max-width: 800px) {
+            display: block;
+            text-align: center;
+
+            >aside {
+                >img {
+                    width: 290px;
+                }
+            }
+
+            >h5 {
+                text-align: left;
+            }
+
+        }
+
+        @media screen and (max-width: 600px) {
+            >aside {
+                >img {
+                    width: 270px;
+                }
+            }
+
+        }
+
+    }
+}
