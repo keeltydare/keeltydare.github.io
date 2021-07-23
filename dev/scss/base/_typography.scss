@@ -27,14 +27,17 @@ h2 {
     margin-right: 10%;
     margin-bottom: 60px;
     background-repeat: no-repeat;
-    >br{
-        display: none;
+    padding-left: 20px;
+
+    >br {
+        display: block;
     }
 
     @media screen and (max-width: 500px) {
         font-size: 32pt;
-        >br{
-            display: block;
+
+        >br {
+            display: none;
         }
     }
 }
@@ -54,6 +57,7 @@ h4 {
     color: $black;
     background-color: $lightgrey;
     padding: 10px;
+
 }
 
 h5 {
@@ -63,16 +67,33 @@ h5 {
     background-color: $lightgrey;
     padding: 10px;
 
+
+    h5 {
+        color: $red;
+    }
+
     >span {
         font-size: 18pt;
         font-weight: 700;
+
+        >a {
+            text-decoration: none;
+            color: $black;
+
+        }
+
+        >a:hover,
+        a:active {
+            color: $red;
+        }
     }
+
     @media screen and (max-width: 750px) {
         font-size: 14pt;
-    
+
         >span {
             font-size: 16pt;
-        }  
+        }
     }
 }
 

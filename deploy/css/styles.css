@@ -342,14 +342,15 @@ h2 {
   padding-bottom: 10px;
   margin-right: 10%;
   margin-bottom: 60px;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  padding-left: 20px; }
   h2 > br {
-    display: none; }
+    display: block; }
   @media screen and (max-width: 500px) {
     h2 {
       font-size: 32pt; }
       h2 > br {
-        display: block; } }
+        display: none; } }
 h3 {
   font-size: 21pt;
   font-weight: 600;
@@ -371,9 +372,17 @@ h5 {
   color: #000;
   background-color: #eaeaea;
   padding: 10px; }
+  h5 h5 {
+    color: #c80000; }
   h5 > span {
     font-size: 18pt;
     font-weight: 700; }
+    h5 > span > a {
+      text-decoration: none;
+      color: #000; }
+    h5 > span > a:hover,
+    h5 > span a:active {
+      color: #c80000; }
   @media screen and (max-width: 750px) {
     h5 {
       font-size: 14pt; }
@@ -526,22 +535,22 @@ textarea {
 ============= */
 .project-cover > img {
   background-color: #ababab;
-  padding: 10px;
+  padding: 5px;
   width: 235px; }
 
 .cover > img {
   background-color: #ababab;
-  padding: 10px;
+  padding: 5px;
   width: 320px; }
 
 .artist-image > img {
   background-color: #ababab;
-  padding: 10px;
+  padding: 5px;
   width: 320px; }
 
 .media-icon > img {
   background-color: #ababab;
-  padding: 10px;
+  padding: 5px;
   width: 200px; }
 
 .scott-image > img {
@@ -561,7 +570,7 @@ Media Press
   #podcast-layout > div {
     margin: 5px;
     margin-bottom: 60px;
-    width: 220px; }
+    width: 210px; }
     #podcast-layout > div > div {
       margin-bottom: 10px; }
     #podcast-layout > div > a {
@@ -577,7 +586,7 @@ Media Press
         #podcast-layout > div > div {
           text-align: center; }
           #podcast-layout > div > div > img {
-            width: 180px; }
+            width: 190px; }
         #podcast-layout > div > a {
           text-align: center;
           margin-bottom: 10px; }
@@ -590,7 +599,7 @@ Media Press
     #podcast-layout > div {
       width: 180px; }
       #podcast-layout > div > div > img {
-        width: 160px; } }
+        width: 170px; } }
   @media screen and (max-width: 800px) {
     #podcast-layout {
       grid-template-columns: 1fr 1fr 1fr; }
@@ -614,7 +623,7 @@ Media Press
   #article-layout > div {
     margin: 5px;
     margin-bottom: 60px;
-    width: 220px; }
+    width: 210px; }
     #article-layout > div > div {
       margin-bottom: 10px; }
     #article-layout > div > a {
@@ -630,7 +639,7 @@ Media Press
         #article-layout > div > div {
           text-align: center; }
           #article-layout > div > div > img {
-            width: 180px; }
+            width: 190px; }
         #article-layout > div > a {
           text-align: center;
           margin-bottom: 10px; }
@@ -643,7 +652,7 @@ Media Press
     #article-layout > div {
       width: 180px; }
       #article-layout > div > div > img {
-        width: 160px; } }
+        width: 170px; } }
   @media screen and (max-width: 800px) {
     #article-layout {
       grid-template-columns: 1fr 1fr 1fr; }
@@ -658,6 +667,10 @@ Media Press
       grid-template-columns: 1fr; }
       #article-layout > div {
         margin-bottom: 30px; } }
+@media screen and (max-width: 800px) {
+  #media-press > h2 {
+    font-size: 32px; } }
+
 /* =============
    Main Page
 ============= */
@@ -677,6 +690,7 @@ Media Press
 
 #main-page > #buttons {
   margin-bottom: 60px;
+  margin-top: -30px;
   display: grid;
   text-align: right;
   grid-template-columns: 1fr 2fr;
@@ -689,6 +703,7 @@ Media Press
     grid-area: button3; }
   #main-page > #buttons > a {
     margin-top: -30px;
+    margin-left: 100px;
     margin-right: auto; }
     #main-page > #buttons > a > h3 {
       width: fit-content; }
@@ -713,7 +728,9 @@ Media Press
   #main-page > #project-icons a:active > .hover {
     display: inline; }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
+  #main-page > #video {
+    margin-top: 90px; }
   #main-page > #description {
     margin: 60px 10%;
     display: block; }
@@ -737,6 +754,10 @@ Media Press
       margin-right: auto;
       margin-left: auto; } }
 
+@media screen and (max-width: 350px) {
+  #main-page > #video {
+    margin-top: 1200px; } }
+
 /* =============
 Project Page
 ============= */
@@ -755,10 +776,15 @@ Project Page
       margin-top: 40px;
       margin-left: 20px;
       width: fit-content; }
+    #project-page-layout > div > .project > div > h5 {
+      margin-top: 40px;
+      margin-left: 20px;
+      background-color: none;
+      height: fit-content; }
     #project-page-layout > div > .project > div > div {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      margin-top: 60px; }
+      margin-left: 20px;
+      text-align: center;
+      width: 200px; }
       #project-page-layout > div > .project > div > div > a {
         margin: 20px; }
 
@@ -773,20 +799,7 @@ Project Page
     display: grid;
     grid-template-columns: 1fr 2fr; }
     #project-page-layout > div > .project > aside {
-      text-align: center; }
-    #project-page-layout > div > .project > div {
-      margin-left: 20px;
-      margin-top: 50px; }
-      #project-page-layout > div > .project > div > h4 {
-        margin-top: 40px;
-        margin-left: 20px;
-        width: fit-content; }
-      #project-page-layout > div > .project > div > div {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-top: 60px; }
-        #project-page-layout > div > .project > div > div > a {
-          margin: 20px; } }
+      text-align: center; } }
 
 @media screen and (max-width: 600px) {
   #project-page-layout {
@@ -808,18 +821,7 @@ Project Page
           width: 200px; }
       #project-page-layout > div > .project > div {
         margin-left: 0px;
-        margin-top: 30px; }
-        #project-page-layout > div > .project > div > h4 {
-          margin-top: 30px;
-          margin-left: 0px;
-          width: fit-content;
-          text-align: center; }
-        #project-page-layout > div > .project > div > div {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          margin-top: 60px; }
-          #project-page-layout > div > .project > div > div > a {
-            margin: 10px; } }
+        margin-top: 30px; } }
 
 /* =============
     Projects

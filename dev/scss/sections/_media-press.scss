@@ -7,10 +7,11 @@ Media Press
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
+
     >div {
         margin: 5px;
         margin-bottom: 60px;
-        width: 220px;
+        width: 210px;
 
         >div {
             margin-bottom: 10px;
@@ -36,7 +37,7 @@ Media Press
                 text-align: center;
 
                 >img {
-                    width: 180px;
+                    width: 190px;
                 }
 
 
@@ -64,7 +65,7 @@ Media Press
 
             >div {
                 >img {
-                    width: 160px;
+                    width: 170px;
                 }
             }
         }
@@ -100,7 +101,7 @@ Media Press
     >div {
         margin: 5px;
         margin-bottom: 60px;
-        width: 220px;
+        width: 210px;
 
         >div {
             margin-bottom: 10px;
@@ -126,7 +127,7 @@ Media Press
                 text-align: center;
 
                 >img {
-                    width: 180px;
+                    width: 190px;
                 }
 
 
@@ -154,7 +155,7 @@ Media Press
 
             >div {
                 >img {
-                    width: 160px;
+                    width: 170px;
                 }
             }
         }
@@ -178,4 +179,12 @@ Media Press
             margin-bottom: 30px;
         }
     }
+}
+
+#media-press{
+    @media screen and (max-width: 800px) {
+    >h2{
+        font-size: 32px;
+    }
+}
 }

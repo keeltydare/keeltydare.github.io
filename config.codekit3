@@ -91,6 +91,14 @@
 		"oAP": "/deploy/html/media-press.html",
 		"oF": 0
 		},
+	"/deploy/html/more-about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/html/more-about.html",
+		"oF": 0
+		},
 	"/deploy/html/night-of-the-ghoul.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -113,6 +121,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/html/projects.html",
+		"oF": 0
+		},
+	"/deploy/html/scott.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/html/scott.html",
 		"oF": 0
 		},
 	"/deploy/html/we-have-demons.html": {
@@ -211,15 +227,37 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/artists/scott-snyder.png": {
-		"ft": 32768,
-		"iS": 192182,
+	"/deploy/img/artists/tomeu-morey.jpg": {
+		"ft": 16384,
+		"iS": 222865,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/artists/scott-snyder.png",
+		"oAP": "/deploy/img/artists/tomeu-morey.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/artists/tony-s-daniel.jpeg": {
+		"ft": 16384,
+		"iS": 1060708,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/artists/tony-s-daniel.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/artists/tony-s-daniel.jpg": {
+		"ft": 16384,
+		"iS": 528755,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/artists/tony-s-daniel.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/artists/tula-lotay.jpg": {
@@ -978,6 +1016,50 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/team/scott-snyder-main-page.png": {
+		"ft": 32768,
+		"iS": 192182,
+		"oA": 0,
+		"oAP": "/deploy/img/team/scott-snyder-main-page.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/team/scott-snyder.jpg": {
+		"ft": 16384,
+		"iS": 551925,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/team/scott-snyder.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/team/tyler-jennes.jpg": {
+		"ft": 16384,
+		"iS": 1801959,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/team/tyler-jennes.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/team/will-dennis.jpeg": {
+		"ft": 16384,
+		"iS": 164021,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/team/will-dennis.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1061,6 +1143,14 @@
 		"oAP": "/deploy/html/media-press.html",
 		"oF": 2
 		},
+	"/dev/html/more-about.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/html/more-about.html",
+		"oF": 2
+		},
 	"/dev/html/night-of-the-ghoul.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1083,6 +1173,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/html/projects.html",
+		"oF": 2
+		},
+	"/dev/html/scott.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/html/scott.html",
 		"oF": 2
 		},
 	"/dev/html/we-have-demons.kit": {
