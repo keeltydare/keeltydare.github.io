@@ -30,25 +30,30 @@
         text-align: right;
         grid-template-columns: 1fr 2fr;
         grid-template-areas:
-            ". button1"
-            ". button2"
-            ". button3";
+        ". button1 ."
+        ". button2 ."
+        ". button3 ."
+        ". button4 .";
 
-        >#button1 {
-            grid-area: button1;
-        }
+    >#button1 {
+        grid-area: button1;
+    }
 
-        >#button2 {
-            grid-area: button2;
-        }
+    >#button2 {
+        grid-area: button2;
+    }
 
-        >#button3 {
-            grid-area: button3;
-        }
+    >#button3 {
+        grid-area: button3;
+    }
+
+    >#button4 {
+        grid-area: button4;
+    }
 
         >a {
             margin-top: -30px;
-            margin-left: 100px;
+            margin-left: 90px;
             margin-right: auto;
 
             >h3 {
@@ -115,7 +120,8 @@
             grid-template-areas:
                 ". button1 ."
                 ". button2 ."
-                ". button3 .";
+                ". button3 ."
+                ". button4 .";
     
             >#button1 {
                 grid-area: button1;
@@ -127,6 +133,10 @@
     
             >#button3 {
                 grid-area: button3;
+            }
+
+            >#button4 {
+                grid-area: button4;
             }
     
             >a {

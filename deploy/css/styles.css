@@ -443,39 +443,42 @@ textarea {
         margin: 10px; }
     #header > div > div {
       display: grid;
-      grid-template-columns: auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto auto;
       margin-left: 10%; }
       #header > div > div > a {
         height: 50px;
         text-align: center; }
         #header > div > div > a > h6 {
           margin: 20px 5px; }
-  @media screen and (max-width: 620px) {
-    #header > div > div {
-      text-align: center; }
-      #header > div > div > a {
-        height: 70px;
-        text-align: center; }
-        #header > div > div > a > h6 {
-          margin: 5px; } }
-  @media screen and (max-width: 560px) {
-    #header > div {
-      display: block;
-      grid-template-columns: 1fr 2fr; }
-      #header > div > a > img {
-        height: 50px;
-        margin: 10px; }
+  @media screen and (max-width: 700px) {
+    #header {
+      height: 80px; }
       #header > div > div {
-        display: grid;
-        grid-template-columns: auto auto auto auto auto;
-        margin-left: 5%;
-        margin-right: 5%; }
+        text-align: center; }
         #header > div > div > a {
-          height: fit-content;
+          height: 70px;
           text-align: center; }
           #header > div > div > a > h6 {
-            margin: 10px 5px;
-            font-size: 14pt; } }
+            margin: 5px; } }
+  @media screen and (max-width: 600px) {
+    #header {
+      height: fit-content; }
+      #header > div {
+        display: block;
+        grid-template-columns: 1fr 2fr; }
+        #header > div > a > img {
+          height: 50px;
+          margin: 10px; }
+        #header > div > div {
+          display: grid;
+          grid-template-columns: auto auto auto;
+          margin-right: 5%; }
+          #header > div > div > a {
+            height: fit-content;
+            text-align: center; }
+            #header > div > div > a > h6 {
+              margin: 5px;
+              font-size: 14pt; } }
 /* =============
     Footer
 ============= */
@@ -694,16 +697,18 @@ Media Press
   display: grid;
   text-align: right;
   grid-template-columns: 1fr 2fr;
-  grid-template-areas: ". button1" ". button2" ". button3"; }
+  grid-template-areas: ". button1 ." ". button2 ." ". button3 ." ". button4 ."; }
   #main-page > #buttons > #button1 {
     grid-area: button1; }
   #main-page > #buttons > #button2 {
     grid-area: button2; }
   #main-page > #buttons > #button3 {
     grid-area: button3; }
+  #main-page > #buttons > #button4 {
+    grid-area: button4; }
   #main-page > #buttons > a {
     margin-top: -30px;
-    margin-left: 100px;
+    margin-left: 90px;
     margin-right: auto; }
     #main-page > #buttons > a > h3 {
       width: fit-content; }
@@ -743,13 +748,15 @@ Media Press
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-areas: ". button1 ." ". button2 ." ". button3 ."; }
+    grid-template-areas: ". button1 ." ". button2 ." ". button3 ." ". button4 ."; }
     #main-page > #buttons > #button1 {
       grid-area: button1; }
     #main-page > #buttons > #button2 {
       grid-area: button2; }
     #main-page > #buttons > #button3 {
       grid-area: button3; }
+    #main-page > #buttons > #button4 {
+      grid-area: button4; }
     #main-page > #buttons > a {
       margin-right: auto;
       margin-left: auto; } }
@@ -914,3 +921,43 @@ Project Page
   @media screen and (max-width: 600px) {
     .artist-description > div > aside > img {
       width: 270px; } }
+/* =============
+   Coming Soon
+============= */
+#coming-soon {
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+  #coming-soon > #big-logo {
+    margin-top: 20%; }
+    #coming-soon > #big-logo > img {
+      width: 80%; }
+  #coming-soon > div > h1 {
+    height: fit-content;
+    margin-top: 50%;
+    font-size: 80pt; }
+  @media screen and (max-width: 800px) {
+    #coming-soon {
+      display: block; }
+      #coming-soon > #big-logo {
+        margin-top: 50px; }
+        #coming-soon > #big-logo > img {
+          width: 80%; }
+      #coming-soon > div > h1 {
+        margin-top: -20px;
+        font-size: 80pt; } }
+  @media screen and (max-width: 600px) {
+    #coming-soon {
+      display: block; }
+      #coming-soon > #big-logo {
+        margin-top: 100px; } }
+  @media screen and (max-width: 400px) {
+    #coming-soon {
+      display: block; }
+      #coming-soon > #big-logo {
+        margin-top: 130px; }
+      #coming-soon > div > h1 {
+        font-size: 60pt; } }

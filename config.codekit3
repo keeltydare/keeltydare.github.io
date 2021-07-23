@@ -67,6 +67,14 @@
 		"oAP": "/deploy/html/clear.html",
 		"oF": 0
 		},
+	"/deploy/html/coming-soon.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/html/coming-soon.html",
+		"oF": 0
+		},
 	"/deploy/html/duck-and-cover.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -269,6 +277,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/bjp-big-logo.png": {
+		"ft": 32768,
+		"iS": 62964,
+		"oA": 0,
+		"oAP": "/deploy/img/bjp-big-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/deploy/img/bjp-logo.png": {
@@ -1119,6 +1138,14 @@
 		"oAP": "/deploy/html/clear.html",
 		"oF": 2
 		},
+	"/dev/html/coming-soon.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/html/coming-soon.html",
+		"oF": 2
+		},
 	"/dev/html/duck-and-cover.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1336,6 +1363,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/layout/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_coming-soon.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_coming-soon.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
