@@ -22,7 +22,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/html/barnstormers.html",
+		"oAP": "/docs/html/barnstormers.html",
 		"oF": 2
 		},
 	"/dev/html/book-of-evil.kit": {
@@ -30,7 +30,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/html/book-of-evil.html",
+		"oAP": "/docs/html/book-of-evil.html",
 		"oF": 2
 		},
 	"/dev/html/canary.kit": {
@@ -38,7 +38,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/html/canary.html",
+		"oAP": "/docs/html/canary.html",
 		"oF": 2
 		},
 	"/dev/html/chain.kit": {
@@ -46,7 +46,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/html/chain.html",
+		"oAP": "/docs/html/chain.html",
 		"oF": 2
 		},
 	"/dev/html/clear.kit": {
@@ -54,7 +54,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/html/clear.html",
+		"oAP": "/docs/html/clear.html",
 		"oF": 2
 		},
 	"/dev/html/coming-soon.kit": {
@@ -62,7 +62,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/html/coming-soon.html",
+		"oAP": "/docs/html/coming-soon.html",
 		"oF": 2
 		},
 	"/dev/html/duck-and-cover.kit": {
@@ -70,7 +70,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/html/duck-and-cover.html",
+		"oAP": "/docs/html/duck-and-cover.html",
 		"oF": 2
 		},
 	"/dev/html/dudley-datson.kit": {
@@ -78,7 +78,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/html/dudley-datson.html",
+		"oAP": "/docs/html/dudley-datson.html",
 		"oF": 2
 		},
 	"/dev/html/media-press.kit": {
@@ -86,7 +86,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/html/media-press.html",
+		"oAP": "/docs/html/media-press.html",
 		"oF": 2
 		},
 	"/dev/html/more-about.kit": {
@@ -94,7 +94,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/html/more-about.html",
+		"oAP": "/docs/html/more-about.html",
 		"oF": 2
 		},
 	"/dev/html/night-of-the-ghoul.kit": {
@@ -102,7 +102,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/html/night-of-the-ghoul.html",
+		"oAP": "/docs/html/night-of-the-ghoul.html",
 		"oF": 2
 		},
 	"/dev/html/nocterra.kit": {
@@ -110,7 +110,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/html/nocterra.html",
+		"oAP": "/docs/html/nocterra.html",
 		"oF": 2
 		},
 	"/dev/html/projects.kit": {
@@ -118,7 +118,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/html/projects.html",
+		"oAP": "/docs/html/projects.html",
 		"oF": 2
 		},
 	"/dev/html/scott.kit": {
@@ -126,7 +126,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/html/scott.html",
+		"oAP": "/docs/html/scott.html",
 		"oF": 2
 		},
 	"/dev/html/we-have-demons.kit": {
@@ -134,7 +134,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/html/we-have-demons.html",
+		"oAP": "/docs/html/we-have-demons.html",
 		"oF": 2
 		},
 	"/dev/index.kit": {
@@ -142,7 +142,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/index.html",
+		"oAP": "/docs/index.html",
 		"oF": 2
 		},
 	"/dev/js/scripts.js": {
@@ -151,7 +151,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/deploy/js/scripts-min.js",
+		"oAP": "/docs/js/scripts-min.js",
 		"oF": 2,
 		"sC": 3,
 		"tS": 0
@@ -372,7 +372,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/deploy/css/styles.css",
+		"oAP": "/docs/css/styles.css",
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
