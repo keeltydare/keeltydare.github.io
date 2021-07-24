@@ -677,6 +677,14 @@
 		"oAP": "/docs/img/bjp-video.mp4",
 		"oF": 0
 		},
+	"/docs/img/bjp-video.ogg": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/docs/img/bjp-video.ogg",
+		"oF": 0
+		},
 	"/docs/img/comic-headers/barnstormers-logo.png": {
 		"ft": 32768,
 		"iS": 257808,
