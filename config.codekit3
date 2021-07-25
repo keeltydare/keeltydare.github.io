@@ -1411,15 +1411,15 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/docs/img/team/emma-price.png": {
-		"ft": 32768,
-		"iS": 154121,
+	"/docs/img/team/emma-price.jpg": {
+		"ft": 16384,
+		"iS": 543138,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/docs/img/team/emma-price.png",
+		"oAP": "/docs/img/team/emma-price.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"/docs/img/team/scott-snyder-main-page.png": {

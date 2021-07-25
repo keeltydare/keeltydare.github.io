@@ -677,7 +677,7 @@ Media Press
 /* =============
    Main Page
 ============= */
-#main-page > #video {
+#main-page > #video-wrapper {
   margin-top: 70px; }
 
 #main-page > #description {
@@ -734,7 +734,7 @@ Media Press
     display: inline; }
 
 @media screen and (max-width: 700px) {
-  #main-page > #video {
+  #main-page > #video-wrapper {
     margin-top: 90px; }
   #main-page > #description {
     margin: 60px 10%;
@@ -762,7 +762,7 @@ Media Press
       margin-left: auto; } }
 
 @media screen and (max-width: 350px) {
-  #main-page > #video {
+  #main-page > #video-wrapper {
     margin-top: 1200px; } }
 
 /* =============
