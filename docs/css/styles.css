@@ -330,7 +330,9 @@ h1 {
   color: #000;
   margin-bottom: 80px;
   margin-top: 100px; }
-
+  @media screen and (max-width: 500px) {
+    h1 {
+      margin-top: 150px; } }
 h2 {
   font-size: 36pt;
   text-align: right;
@@ -735,7 +737,7 @@ Media Press
 
 @media screen and (max-width: 700px) {
   #main-page > #video-wrapper {
-    margin-top: 90px; }
+    margin-top: 100px; }
   #main-page > #description {
     margin: 60px 10%;
     display: block; }
@@ -763,7 +765,7 @@ Media Press
 
 @media screen and (max-width: 350px) {
   #main-page > #video-wrapper {
-    margin-top: 1200px; } }
+    margin-top: 150px; } }
 
 /* =============
 Project Page
@@ -828,7 +830,8 @@ Project Page
           width: 200px; }
       #project-page-layout > div > .project > div {
         margin-left: 0px;
-        margin-top: 30px; } }
+        margin-top: 10px;
+        text-align: left; } }
 
 /* =============
     Projects
